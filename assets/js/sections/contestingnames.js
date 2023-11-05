@@ -13,6 +13,18 @@ $('.contesttable').DataTable({
 			exportOptions: {
 				columns: [ 0, 1, 2 ]
 			}
+		},
+		{
+			extend: 'excel',
+			exportOptions: {
+				columns: [ 0, 1, 2 ]
+			}
+		},
+		{
+			extend: 'pdf',
+			exportOptions: {
+				columns: [ 0, 1, 2 ]
+			}
 		}
 	]
 });

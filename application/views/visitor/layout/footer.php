@@ -244,6 +244,14 @@
                       text: 'CSV'
                    },
                    {
+                      extend: 'excel',
+                      text: 'Excel'
+                   },
+                   {
+                      extend: 'pdf',
+                      text: 'PDF'
+                   },
+                   {
                       extend: 'clear',
                       text: 'Clear'
                    }

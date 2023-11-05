@@ -121,7 +121,9 @@ function accumulatePlot(form) {
 					"scrollX": true,
 					dom: 'Bfrtip',
 					buttons: [
-						'csv'
+						'csv',
+						'excel',
+						'pdf',
 					]
 				});
 

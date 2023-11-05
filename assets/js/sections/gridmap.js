@@ -141,7 +141,9 @@ function spawnGridsquareModal(loc_4char) {
                             "scrollX": true,
                             dom: 'Bfrtip',
                             buttons: [
-                                'csv'
+                                'csv',
+                                'excel',
+                                'pdf'
                             ]
                         });
                             // change color of csv-button if dark mode is chosen

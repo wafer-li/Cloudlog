@@ -369,7 +369,9 @@ $(function () {
                     "scrollX": true,
                     dom: 'Bfrtip',
                     buttons: [
-                        'csv'
+                        'csv',
+                        'excel',
+                        'pdf'
                     ]
                 });
                 // change color of csv-button if dark mode is chosen
@@ -494,7 +496,9 @@ $(function () {
                         "scrollX": true,
                         dom: 'Bfrtip',
                         buttons: [
-                            'csv'
+                            'csv',
+                            'excel',
+                            'pdf'
                         ]
                     });
                     // change color of csv-button if dark mode is chosen
@@ -855,7 +859,9 @@ function findduplicates(){
             "scrollX": true,
             dom: 'Bfrtip',
             buttons: [
-                'csv'
+                'csv',
+                'excel',
+                'pdf'
             ]
         });
         // change color of csv-button if dark mode is chosen
@@ -878,7 +884,9 @@ function findlotwunconfirmed(){
             "scrollX": true,
             dom: 'Bfrtip',
             buttons: [
-                'csv'
+                'csv',
+                'excel',
+                'pdf'
             ]
         });
         // change color of csv-button if dark mode is chosen
@@ -901,7 +909,9 @@ function findincorrectcqzones() {
             "scrollX": true,
             dom: 'Bfrtip',
             buttons: [
-                'csv'
+                'csv',
+                'excel',
+                'pdf'
             ]
         });
         // change color of csv-button if dark mode is chosen
@@ -1914,7 +1924,9 @@ $(document).ready(function(){
         "scrollX": true,
         dom: 'Bfrtip',
         buttons: [
-            'csv'
+            'csv',
+            'excel',
+            'pdf'
         ]
     });
 
@@ -1925,7 +1937,9 @@ $(document).ready(function(){
         "paging":         false,
         dom: 'Bfrtip',
         buttons: [
-            'csv'
+            'csv',
+            'excel',
+            'pdf'
         ]
     });
 
@@ -1948,7 +1962,9 @@ $(document).ready(function(){
         "scrollX": true,
         dom: 'Bfrtip',
         buttons: [
-            'csv'
+            'csv',
+            'excel',
+            'pdf'
         ]
     });
 
@@ -1972,7 +1988,9 @@ $(document).ready(function(){
             "scrollX": true,
             dom: 'Bfrtip',
             buttons: [
-                'csv'
+                'csv',
+                'excel',
+                'pdf'
             ]
         });
 
@@ -1983,7 +2001,9 @@ $(document).ready(function(){
             "paging":         false,
             dom: 'Bfrtip',
             buttons: [
-                'csv'
+                'csv',
+                'excel',
+                'pdf'
             ]
         });
 
@@ -2007,7 +2027,9 @@ $(document).ready(function(){
             "scrollX": true,
             dom: 'Bfrtip',
             buttons: [
-                'csv'
+                'csv',
+                'excel',
+                'pdf'
             ]
         });
 
@@ -2018,7 +2040,9 @@ $(document).ready(function(){
             "paging":         false,
             dom: 'Bfrtip',
             buttons: [
-                'csv'
+                'csv',
+                'excel',
+                'pdf'
             ]
         });
 
@@ -2041,7 +2065,9 @@ $(document).ready(function(){
             "scrollX": true,
             dom: 'Bfrtip',
             buttons: [
-                'csv'
+                'csv',
+                'excel',
+                'pdf'
             ]
         });
 
@@ -2052,7 +2078,9 @@ $(document).ready(function(){
             "paging":         false,
             dom: 'Bfrtip',
             buttons: [
-                'csv'
+                'csv',
+                'excel',
+                'pdf'
             ]
         });
 
@@ -2134,7 +2162,9 @@ $(document).ready(function(){
                 "scrollX": true,
                 dom: 'Bfrtip',
                 buttons: [
-                    'csv'
+                    'csv',
+                    'excel',
+                    'pdf'
                 ]
             });
 
@@ -2187,7 +2217,9 @@ $(document).ready(function(){
                 "scrollX": true,
                 dom: 'Bfrtip',
                 buttons: [
-                    'csv'
+                    'csv',
+                    'excel',
+                    'pdf'
                 ]
             });
 
@@ -2484,7 +2516,9 @@ function viewEqsl(picture, callsign) {
                             "scrollX": true,
                             dom: 'Bfrtip',
                             buttons: [
-                                'csv'
+                                'csv',
+                                'excel',
+                                'pdf'
                             ]
                         });
                     },
@@ -2529,7 +2563,9 @@ function viewEqsl(picture, callsign) {
 					    "scrollX": true,
 					    dom: 'Bfrtip',
 					    buttons: [
-						    'csv'
+						    'csv',
+                            'excel',
+                            'pdf'
 					    ]
 				    });
 			    },
@@ -2775,7 +2811,9 @@ function viewEqsl(picture, callsign) {
         "scrollX": true,
         dom: 'Bfrtip',
         buttons: [
-            'csv'
+            'csv',
+            'excel',
+            'pdf'
         ]
     });
 
@@ -2825,7 +2863,9 @@ function viewEqsl(picture, callsign) {
 			"scrollX": true,
 			dom: 'Bfrtip',
 			buttons: [
-				'csv'
+				'csv',
+                'excel',
+                'pdf'
 			]
 		});
 
@@ -3008,6 +3048,12 @@ function viewEqsl(picture, callsign) {
                       extend: 'csv'
                    },
                    {
+                         extend: 'excel',
+                   },
+                   {
+                         extend: 'pdf',
+                   },
+                   {
                       extend: 'clear',
                       text: 'Clear'
                    }
@@ -3042,6 +3088,13 @@ function viewEqsl(picture, callsign) {
                       extend: 'csv'
                    },
                    {
+                         extend: 'excel',
+                   },
+                   {
+                         extend: 'pdf',
+                   },
+
+                   {
                       extend: 'clear',
                       text: 'Clear'
                    }
@@ -3072,6 +3125,12 @@ function viewEqsl(picture, callsign) {
                 buttons: [
                    {
                       extend: 'csv'
+                   },
+                   {
+                             extend: 'excel',
+                   },
+                   {
+                             extend: 'pdf',
                    },
                    {
                       extend: 'clear',
